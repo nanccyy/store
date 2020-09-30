@@ -1,0 +1,46 @@
+body {
+  background-color: #f4f1de;
+}
+
+.App {
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  background-color: #ffd6ba;
+  padding: 30px;
+  border-radius: 8px;
+
+  & * {
+    border-radius: 6px;
+  }
+
+  &__input {
+   width: 200px;
+   height: 30px;
+  }
+
+  &__priority {
+    height: 30px;
+    cursor: pointer;
+  }
+
+  &__status {
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  &__button {
+    background-color: #c89f9c;
+    cursor: pointer;
+  }
+  &__filter {
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+  } 
+}
