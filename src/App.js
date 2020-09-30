@@ -75,7 +75,7 @@ function App() {
         <input
           type="text"
           value={name}
-          placeholder="Entry product"
+          placeholder="Enter product name"
           className="top__input"
           onChange={(event) => {
             setName(event.target.value)
